@@ -1,0 +1,210 @@
+/*places borders around my header and footer*/
+header, footer{
+  background-color:beige;
+  border: 5px solid #000;
+  margin-bottom: 10px;
+}
+footer{
+  margin-top:10px;
+}
+/*changes some aspects of my logo or my name in the portfolio*/
+.logo{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 48px;
+  color:coral;
+  letter-spacing: -1;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 0 0;
+}
+header nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*list items are placed horizontally*/
+header nav ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-right:12px;
+  margin-left: 12px;
+  text-align: center;
+
+}
+/*removes bullet points from list*/
+header nav ul li{
+  list-style-type: none;
+  margin: 10px;
+  padding-right:24px;
+  padding-left:24px;
+
+}
+/*code below is for the links in the header nav style*/
+header nav ul li a{
+  color:dimgrey;
+  font-family: fantasy;
+  text-decoration: none;
+  padding: 0;
+}
+header nav ul li a:active{color:black;}
+/*the code below is applied upon certain screen pixel width*/
+
+.resized{
+  width:300px;
+  height:auto;
+  border-radius:20px;
+  justify-content: center;
+}
+main {
+  border: 5px solid #000;
+  background-color: rosybrown;
+}
+/*the mobile-friendly way to display my portfolio, roughly 320-480px*/
+.group{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+.item{
+  flex-grow: 3;
+  justify-content: center;
+  margin-left:12px;
+  margin-right:12px;
+  text-align: center;
+}
+.item ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-right:12px;
+  margin-left: 12px;
+  text-align: center;
+
+}
+
+.item ul li{
+  list-style-type: none;
+  margin: 10px;
+  padding-right:24px;
+  padding-left:24px;
+
+}
+.group-2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+.item-2{
+  flex-grow: 3;
+  justify-content: center;
+  margin-left:12px;
+  margin-right:12px;
+  text-align: center;
+}
+.item-2 ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-right:12px;
+  margin-left: 12px;
+  text-align: center;
+
+}
+
+.item-2 ul li{
+  list-style-type: none;
+  margin: 10px;
+  padding-right:24px;
+  padding-left:24px;
+
+}
+
+
+h1 {
+  text-decoration: underline;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 4px 4px 1px 1px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 6px;
+  justify-content: center;
+}
+.indented{
+  text-indent: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+  height:4px;
+  border-color:black;
+  background-color:black;
+}
+section h2{
+  text-align: center;
+  font-size: 24px;
+  color:#000;
+  text-decoration: underline;
+}
+h3{
+  text-align: center;
+}
+
+section a:active{color:blue;}
+section a:hover{color:green;}
+section a:visited{color:darkmagenta;}
+section a:link{color:hotpink;}
+
+/*styling for the contact form/text box in the bottom in my contact section*/
+form label{
+  display: inline-block;
+  font-size:18px;
+  margin-bottom:15px;
+  color:#000;
+  
+  
+  
+}
+
+@media (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-between; 
+  }
+  .logo{
+    margin: 12px 12px 12px 12px;
+  }
+  header nav{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-right: 12px;
+  }
+  .group{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+  }
+  .item{
+    
+    flex-direction: row;
+    flex-grow:3;
+
+  }
+  
+
+}
+button {
+  padding: 10px 16px;
+  border-radius: 10px;
+}
