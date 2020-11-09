@@ -52,7 +52,7 @@ header nav ul li a:active{color:black;}
 /*the code below is applied upon certain screen pixel width*/
 
 .resized{
-  width:40%;
+  width:30%;
   height:auto;
   border-radius:20px;
   justify-content: center;
