@@ -61,9 +61,6 @@ main {
   border: 5px solid #000;
   background-color: rosybrown;
 }
-p {
-  
-}
 /*the mobile-friendly way to display my portfolio, roughly 320-480px*/
 .group{
   display: flex;
@@ -77,7 +74,6 @@ p {
   margin-left:12px;
   margin-right:12px;
   text-align: center;
-  padding: 10px;
 }
 .item ul{
   display: flex;
