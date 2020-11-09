@@ -54,6 +54,7 @@ header nav ul li a:active{color:black;}
 .resized{
   max-widith: 280px;
   height:auto;
+  border-radius:20px;
   justify-content: center;
 }
 main {
