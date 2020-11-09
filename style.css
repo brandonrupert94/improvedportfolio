@@ -52,7 +52,7 @@ header nav ul li a:active{color:black;}
 /*the code below is applied upon certain screen pixel width*/
 
 .resized{
-  width:300px;
+  width:40%;
   height:auto;
   border-radius:20px;
   justify-content: center;
@@ -60,6 +60,9 @@ header nav ul li a:active{color:black;}
 main {
   border: 5px solid #000;
   background-color: rosybrown;
+}
+p {
+  
 }
 /*the mobile-friendly way to display my portfolio, roughly 320-480px*/
 .group{
