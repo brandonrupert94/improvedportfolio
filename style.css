@@ -76,6 +76,7 @@ p {
   margin-left:12px;
   margin-right:12px;
   padding:5px;
+  box-sizing:border-box;
   text-align: center;
 }
 .item ul{
