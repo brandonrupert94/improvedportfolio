@@ -165,9 +165,14 @@ form label{
   font-size:18px;
   margin-bottom:15px;
   color:#000;
-  
-  
-  
+}
+form input,
+form textarea{
+  width:100%;
+  margin-bottom:20px;
+}
+form textarea{
+  height:160px;
 }
 
 @media (min-width: 800px) {
