@@ -166,6 +166,9 @@ form label{
   margin-bottom:15px;
   color:#000;
 }
+#user-message{
+  max-width: 340px;
+}
 form input,
 form textarea{
   width:100%;
